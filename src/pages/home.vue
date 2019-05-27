@@ -33,7 +33,7 @@
         <div style="height:10vw;"/>
       </div>
       <div v-else>
-          此账号已经注册，感谢您的关注
+          此账号已经注册，感谢您的关注.
       </div>
 </div>
 </template>
