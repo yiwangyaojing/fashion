@@ -1,4 +1,4 @@
 
-let url = "http://192.168.0.119:80/bwstorm/storm/";
+let url = "";
 
 export default url
