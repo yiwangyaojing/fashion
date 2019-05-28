@@ -23,7 +23,7 @@
                 </div>
             </div>
             <div v-else style="text-align:center;font-size:1.7vh;margin-top:10vh">
-                此账号已经注册，感谢您的关注!
+                此账号已经注册，感谢您的关注.
             </div>
             <br/>
             <div style="color:#CF0C2D;text-align:center;position:absolute;bottom:5vh;width:80vw;">
