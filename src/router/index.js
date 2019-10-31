@@ -20,7 +20,7 @@ const router = new Router({
             path: '/',
             name: 'Ahome',
             component: resolve => require(['@/pages/A_home'], resolve),
-            meta:{title:'首页'}
+            meta:{title:'首页s'}
         },
         {
             path: '/Ainvite',
