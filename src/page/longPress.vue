@@ -14,13 +14,17 @@
         </div>
       </template>
       <div class="body">
-        <div v-for="(item, index) in arr" :key="index">
-          <longPress :data="item" :index="index" @click="open">
-            <div class="box">
-              {{ item }}
-            </div>
-          </longPress>
-        </div>
+        <longPress
+          v-for="(item, index) in arr"
+          :key="index"
+          :data="item"
+          :index="index"
+          @click="open"
+        >
+          <div class="box">
+            {{ item }}
+          </div>
+        </longPress>
       </div>
     </parent>
   </div>

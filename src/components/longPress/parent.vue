@@ -56,6 +56,7 @@ export default {
   },
   mounted() {
     document.addEventListener("touchstart", this.fn.bind(this), false);
+    // longPress长按成功后的接收   
     bus.$on("val", (data) => {
       this.data = data;
       this.showEditModel(data.x, data.y);
@@ -130,10 +131,8 @@ export default {
           let model = document.getElementsByClassName(
             "product-long-press-edit-model"
           )[0];
-          console.log(model.getBoundingClientRect().top);
           if (model.getBoundingClientRect().top < 0) {
             this.top = this.fromTheTop + "px";
-            console.log(this.top);
           }
           this.sysModelClass = "show";
         });
