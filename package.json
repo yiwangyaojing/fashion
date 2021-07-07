@@ -11,6 +11,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "custom-private-ui": "^1.0.1",
     "node-sass": "^4.11.1",
     "sass-loader": "^7.3.0",
     "style-loader": "^2.0.0",
