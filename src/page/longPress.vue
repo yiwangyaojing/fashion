@@ -31,8 +31,8 @@
 </template>
 
 <script>
-import longPress from "../components/longPress/longPress.vue";
-import parent from "../components/longPress/parent.vue";
+import longPress from "@/components/longPress/longPress.vue";
+import parent from "@/components/longPress/parent.vue";
 export default {
   data() {
     return {
@@ -63,6 +63,7 @@ export default {
   },
   methods: {
     del(data) {
+      let a;
       console.log("删除", data);
       this.$nextTick(() => {
         alert("点击删除,下标" + this.data.index);
