@@ -9,8 +9,7 @@ COPY . /app
 WORKDIR /app
 #运行 npm install -g cnpm --registry=https://registry.npm.taobao.org 命令
 RUN npm install -g cnpm --registry=https://registry.npm.taobao.org
-RUN cnpm install -g yarn 
-RUN yarn
+RUN cnpm i
 # 使用node镜像
 USER node
 
