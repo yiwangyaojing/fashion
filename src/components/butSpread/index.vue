@@ -20,12 +20,10 @@ export default {
     };
   },
   mounted() {
-    // buttons.addEventListener('click', (e) => {
-    //   this.$emit("click")
-    // })
   },
   methods: {
     clickAnimate(e) {
+      this.$emit('click');
       let buttons = this.$refs.mybutton;
       let x = e.clientX - buttons.getBoundingClientRect().left;
       let y = e.clientY - buttons.getBoundingClientRect().top;
