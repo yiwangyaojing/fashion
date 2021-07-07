@@ -31,8 +31,8 @@
 </template>
 
 <script>
-import longPress from "@/components/longPress/longPress.vue";
-import parent from "@/components/longPress/parent.vue";
+// import longPress from "@/components/longPress/longPress.vue";
+// import parent from "@/components/longPress/parent.vue";
 export default {
   data() {
     return {
@@ -58,8 +58,8 @@ export default {
     };
   },
   components: {
-    longPress,
-    parent,
+    // longPress,
+    // parent,
   },
   methods: {
     del(data) {

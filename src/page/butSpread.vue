@@ -15,14 +15,14 @@
 </template>
 
 <script>
-import butSpread from "@/components/butSpread/index.vue";
+// import butSpread from "@/components/butSpread/index.vue";
 export default {
   data() {
     return {
     };
   },
   components: {
-    butSpread
+    // butSpread
   },
   methods: {
     click(){
